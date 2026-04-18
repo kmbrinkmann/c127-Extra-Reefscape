@@ -1,0 +1,112 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonStart"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonResetRotation"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "MiddleStart2Algae"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonGrabAlgaeL2"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "BackUp"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonPlaceCoralParallel"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "MiddleReefAlgae2Coral"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonClawDrop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "MiddlePathBump"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonDisableVision"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "MiddleProcessor"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AutonPlaceAlgae"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AutonAlgaeDrop"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
