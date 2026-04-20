@@ -34,7 +34,7 @@ public class ClawIntake extends Command {
   public void initialize() {
     timer.reset();
 
-    if (Robot.getInstance().joystick.leftBumper()) {
+    if (Robot.getInstance().joystick.leftBumper() != null) {
       subsystem = m_algae;
     } subsystem = m_coral;
 

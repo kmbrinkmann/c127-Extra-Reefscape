@@ -1,1 +1,3 @@
-# c127-Extra-Reefscape
+# c127-Extra-Reefscape Details
+
+When learning about inheritance in class, I couldn't help but notice how a project my high school robotics team did could be improved by inheritance. In order to make the robot use its claw to pick up two difference game pieces, we separated it into two separate subsystems (Algae and Coral) and had a separate command to pick up, store, and place each game piece. This resulted in a lot of repeated code. I used the skills we learned in class to implement inheritance into the code and remove some of this repitition. However, I was not able to get any of the code running because of the structure and dependencies we had to use in high school robotics, so I don't know if this actually would work. Regardless, it was a fun way to practice inheritance.

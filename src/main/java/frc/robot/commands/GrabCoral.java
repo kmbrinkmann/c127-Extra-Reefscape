@@ -16,6 +16,7 @@ import edu.wpi.first.wpilibj2.command.InstantCommand;
 import edu.wpi.first.wpilibj2.command.SequentialCommandGroup;
 import frc.robot.PoseSetter;
 import frc.robot.Robot;
+import frc.robot.subsystems.Algae;
 import frc.robot.subsystems.Coral;
 import frc.robot.subsystems.ElevatorS1;
 import frc.robot.subsystems.ElevatorS2;
